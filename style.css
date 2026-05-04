@@ -1,0 +1,114 @@
+/* GLOBAL */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom, #CDB4DB, #E6D6F5);
+    margin: 0;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #A084CA;
+    padding: 15px 20px;
+    color: white;
+    position: relative;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background: #A084CA;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-links a:hover {
+    background: #8C6BB1;
+    border-radius: 8px;
+}
+
+/* BUTTON */
+.btn {
+    background: #A084CA;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #8C6BB1;
+}
+
+/* CARD / CONTAINER */
+.container,
+.login-container,
+.register-container,
+.admin-container {
+    background: white;
+    width: 400px;
+    margin: 120px auto;
+    padding: 40px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/* INPUTS */
+input {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 40px;
+}
+
+.card {
+    background: white;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #A084CA;
+    color: white;
+    margin-top: 40px;
+}

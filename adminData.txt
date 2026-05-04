@@ -1,0 +1,6 @@
+admin@pastimes.com,admin123
+manager@pastimes.com,admin123
+owner@pastimes.com,admin123
+staff1@pastimes.com,admin123
+staff2@pastimes.com,admin123
+

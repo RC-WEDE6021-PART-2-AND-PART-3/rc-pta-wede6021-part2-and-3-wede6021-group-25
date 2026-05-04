@@ -1,0 +1,5 @@
+Vintage Jacket,250,jacket.png
+Floral Dress,180,dress.png
+Denim Skirt,150,skirt.png
+Crop Top,90,top.png
+Oversized Hoodie,220,hoodie.png
